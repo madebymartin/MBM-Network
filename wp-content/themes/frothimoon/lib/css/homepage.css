@@ -1,0 +1,7 @@
+html{
+color:blue !important;
+}
+#blog-title a {
+    color: blue;
+    text-decoration: none;
+}

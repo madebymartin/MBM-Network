@@ -1,0 +1,12 @@
+/*
+------------------------------------------------
+Custom Admin CSS
+------------------------------------------------
+*/
+
+.tabs-panel{
+	max-height:800px !important;
+}
+input.code {
+  width: 100% !important;
+}

@@ -1,0 +1,725 @@
+﻿/*   
+Theme Name: Beauty Secrets
+Theme URI: 
+Description: Beauty Secrets Theme
+Author: Martin Stevens
+Author URI: http://totallydesignandprint.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* Importgoogle font css */
+@import url('frontend.css');
+
+/* Import custom css for shop frontend */
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+
+body{
+	background-image:url("images/bg_texture.jpg");
+}
+body, input, textarea {
+    color: #666;
+    font-family:arial, sans-serif;
+    font-size:12px;
+    line-height:20px;
+}
+p{
+	font-family:arial, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin:0 0 0px;
+}
+p, ul, ol, dd, pre {
+    margin-bottom: 0;
+}
+.bold{
+	font-weight:bold;
+}
+ul{
+	Margin:0 0 18px 1.1em;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	z-index:9999;
+}
+h1{
+	font-family:tangerine;
+	font-size:38px;
+	color:rgb(107, 16, 96)
+	text-shadow:0px 2px #FFF;
+}
+
+.page-template-template-page-fullwidth-php .entry-title {
+    margin:30px 0;
+}
+
+h2{
+	font-family:arial, sans-serif;
+	font-size:38px;
+	color:#850e76;
+}
+.centre h2{
+	font-family:tangerine;
+}
+.related h2{
+	font-size:16px;
+	font-weight:bold;
+	color:#850e76;
+	margin:0 0 20px 0;
+}
+
+h3{
+	font-family:tangerine;
+	font-size:30px;
+	color:#666;
+	text-shadow:0px 2px #FFF;
+}
+.entry-content h3 {
+    font-size: 30px;
+    padding: 28px 0 14px;
+    color:#850e76;
+}
+
+h4{
+	font-family:tangerine;
+	font-size:25px;
+	color:#850e76;
+}
+
+h5{
+	font-family:arial;
+	font-weight:bold
+	font-size:14px;
+	color:#850e76;
+}
+
+h6{
+	font-family:arial;
+	font-weight:bold;
+	font-size:12px;
+	color:#666;
+}
+input{
+	border-radius: 6px 6px 6px 6px;
+	height:20px;
+}
+mark{
+	background-color:#f3cfff;
+	padding:2px 4px;
+}
+.treatment-name{
+	font-family:arial, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#850e76;
+	clear:both;
+	margin:20px 0 0 0;
+}
+.price{
+	color:#999;
+	font-size:12px;
+	margin:0px;
+	clear:both;
+}
+a:link {
+    color: #850e76;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:visited {
+    color: #850e76;
+}
+a:hover, a:active {
+    color: #666;
+}
+.aside a:link {
+    color: #666666;
+    display: block;
+    width: 142px;
+}
+.aside a:visited {
+    color: #666;
+}
+.aside a:active, .aside a:hover {
+    color: #850e76;
+}
+
+.page-title, .entry-title{
+	font-family:tangerine;
+	font-weight:bold;
+	font-size:38px;
+	padding: 10px 0px;
+	color:#850e76;
+	padding: 4px 0 30px 4px;
+	line-height:35px;
+}
+
+/*header*/
+#header{
+	background-image:url("images/beautysecretsheader.jpg");
+	height:160px;
+	border:0px;
+position:relative;
+}
+#branding{
+	height:160px;
+	width:900px;
+	padding:0px;
+position:relative;
+}
+#blog-title {
+    font-family:georgia, times new roman, serif;
+    font-size:34px;
+    font-weight:bold;
+    line-height:40px;
+    margin:50px 0 0 30px;
+    position:absolute;
+}
+#blog-title a {
+    color:#FFF;
+    text-decoration:none;
+	background:url("images/beautysecretslogo.jpg") no-repeat top center;
+	display:block;
+	text-indent:-9000px;
+	width: 243px;
+	height: 63px;
+}
+#blog-description {
+	font-family: 'Tangerine', cursive;
+    color:#666;
+    font-size:38px;
+    font-weight:bold;
+    text-shadow:0px 2px 0px #FFF;
+    margin:60px 30px 0 0px;
+    position:relative;
+    float:right;
+    font-style: normal;
+}
+#shoppinginfo {
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    width: 900px;
+    top: 30px;
+}
+#bagdetails {
+    position: absolute;
+    right: 20px;
+    top: -38px;
+    z-index: 999;
+}
+#userlinks{
+	position: absolute;
+    right: 85px;
+    top: 41px;
+    z-index: 999;
+    text-align:right;
+    font-weight:bold;
+    width:300px;	
+}
+#userlinks a{
+	color:#850e76;
+}
+#userlinks span{
+	color:#850e76;
+	padding:0 4px;
+}
+
+#userlinks a:hover, #userlinks a:active{
+	color:#666;
+}
+.bagicon{
+	background-image: url("images/shoppingbag-icon.png");
+	display:block;
+	width:71px;
+	height:90px;
+	float:right;
+}
+#bagitems {
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    right: 85px;
+    text-align: right;
+    top: 14px;
+    width: 180px;
+}
+#bagitems a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: right;
+}
+/*nav*/
+#access{
+	background:rgb(107, 16, 96);
+    background-position:0px 0px;
+	color:#FFF;
+	border:0;
+	height:30px;
+}
+#access .menu{
+width:940px;
+}
+.menu{
+	padding:0 13px 0 13px;
+	color:#FFF;
+	width:auto;
+}
+.sf-menu {
+    border-right: 0 solid #CCCCCC;
+    color: #FFFFFF;
+    float: left;
+    margin: 0 0 0 21px;
+}
+.sf-menu li {
+    background: none repeat scroll 0 0;
+    color:#FFF;
+}
+.sf-menu li a:hover, .sf-menu li a:active, .sf-menu li a:focus, .sf-menu li.current-menu-item a {
+	background:rgb(156, 49, 143);
+	border-bottom: 3px solid #FFF;
+	height:10px;
+}
+.sf-menu a {
+    border-bottom: 0 solid #CCCCCC;
+    border-left: 0 solid #CCCCCC;
+    border-top: 0 solid #CCCCCC;
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 9px 17px;
+    text-decoration: none;
+}
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    background: none;
+    outline: 0 none;
+}
+.sf-menu a:visited{
+	color:#FFF;
+}
+.aside .current_page_item a {
+    color: #850e76;
+    font-weight:bold;
+}
+current-page-ancestor li{
+	border-bottom:2px solid #FFF;
+}
+/*main*/
+#main{
+	width:900px;
+	padding:0px 0 0 0;
+	margin:0px auto 0px auto;
+	
+}
+#container {
+    float: right;
+    width: 700px;
+    margin: 60px 0 20px;
+    border-left:1px solid #CCC;
+}
+.page-template-template-page-fullwidth-php #container {
+    margin: 0;
+    width: 900px;
+}
+.page-template-template-page-fullwidth-php #content {
+    margin: 0 30px;
+    width: 840px;
+}
+.page-template-template-page-fullwidth-php .entry-title {
+    text-align:center;
+}
+#breadcrumb {
+    color: #999999;
+    font-size: 0.92em;
+    top:20px;
+    left:30px;
+    overflow: hidden;
+    padding: 0;
+    position:absolute;
+}
+#breadcrumb a:hover {
+    color: #850e76;
+}
+#narrowcontent {
+    margin: 0 0 0 30px;
+    overflow: hidden;
+    width: 410px;
+}
+#content {
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    width: 670px;
+}
+.entry-content{
+	padding: 0px 0 30px 0;
+}
+
+/*sidebar*/
+.main-aside {
+    float: left;
+    position: relative;
+    left: 0px;
+    width: 180px;
+}
+#primary {
+    border: 0px solid #CCCCCC;
+    margin: 60px 0 22px 0;
+    padding: 0;
+}
+#secondary {
+    clear: left;
+}
+.aside, .aside input {
+    font-size: 11px;
+    line-height: 25px;
+}
+.aside ul ul {
+    list-style: disc outside none;
+    margin: 0 0 20px 0;
+    width: 180px;
+}
+.main-aside ul {
+    padding: 0 0 0 20px;
+    list-style:none;
+    width: 180px;
+}
+.main-aside li {
+    line-height: 25px;
+    list-style: none outside none;
+    margin: 0 0 0 0;
+    width: 175px;
+}
+.main-aside .xoxo li {
+    line-height: 25px;
+    list-style: none outside none;
+    margin: 0px 0 0 0;
+    width: 170px;
+}
+.main-aside .xoxo li .widgetcontainer{
+    line-height: 15px;
+    list-style: none outside none;
+    margin: 0px 0 0 0;
+}
+.aside ul ul li a{
+}
+.xoxo .cat-item ul {
+	margin: 0px 0 12px 0;
+}
+.widgettitle{
+	font-family:arial, sans-serif;
+	border-bottom:1px solid #850e76;
+	margin:0 0 10px;
+	padding: 0 1px 1px;
+	font-size:13px;
+	font-style:bold;
+}
+
+.cat-item a{
+	color:#850e76;
+	font-weight:bold;
+	font-size:13px;
+}
+.current-cat a{
+}
+.current-cat li{
+}
+.children li{
+	margin:0;
+	line-height:13px;
+}
+.children li a{
+	color:#666;
+	font-size:11px;
+}
+/*footer*/
+#footer{
+	width:900px;
+	margin:0 auto;
+	padding:0;
+	border:0;
+}
+.block{
+	padding:0px;
+	width:900px;
+	height:140px;
+	margin:10px auto 0 auto;
+	border:0;
+}
+.footerlink{
+	float:left;
+	width:423px;
+	height:106px;
+	background-color:#FFF;
+	margin:18px 0 16px 18px;
+	position:relative;
+	overflow:hidden;
+}
+.footerpic{
+	display:block;
+	width:150px;
+	height:100px;
+	border:3px solid #CCC;
+	float:left;
+	background-color:transparent;
+	margin:0px;
+	position:relative;
+}
+.footerpic:hover{
+	border-color:rgb(107, 16, 96)
+}
+
+.footerlink {
+	background-color:rgba(0,0,0,0.05);
+}
+
+.footerlink:hover {
+	background-color:rgba(0,0,0,0.1);
+	
+}
+
+.footerlink:hover a span h3 {
+	text-decoration:underline;
+}
+.footerlink a span{
+	font-size:25px;
+	position:absolute;
+	left:165px;
+	top:5px;
+	width:260px;
+	height:95px;
+	display:block;
+	color:#666;
+	overflow:hidden;
+}
+.footerlink a span p{
+	margin:0px;
+}
+.footerlink a h3{
+	color:#850e76;
+	font-weight: bold;
+	margin:0 0 10px 0px;
+	font-size:25px;
+	padding:5px 0 0 2px;
+}
+#mailinglist{
+	background-image:url("images/mailinglist.jpg");
+}
+#newsletter{
+	background-image:url("images/newsletter.jpg");
+}
+#treatmentofmonth{
+	background-image:url("images/treatmentofmonth.jpg");
+}
+#productofmonth{
+	background-image:url("images/productofmonth.jpg");
+}
+#siteinfo {
+    color: #666666;
+    font-size: 11px;
+    padding: 10px 0;
+    float:left;
+    width:833px;
+    position:relative;
+}
+#siteinfo ul{
+float:left;
+margin:0;
+}
+#siteinfo li{
+	float:left;
+	margin:0 0px 0 0px;
+	list-style:none outside none;
+}
+#siteinfo a{
+	color:#666;
+	margin:0 0 0 13px;
+}
+#siteinfo a:hover, #siteinfo a:active{
+	color:#850e76;
+}
+ul#menu-footer-navigation{
+float:right;
+}
+
+
+#social{
+	width:62px;
+	height:20px;
+	float:right;
+	padding: 8px 0 0px;
+}
+.socialbutton{
+	display:block;
+	width:25px;
+	height:24px;
+	float:right;
+	background-image:url("images/Social-Sprite.png");
+	margin:0 0 0 6px;
+}
+#facebook{
+	background-position:0px -25px;
+}
+#facebook:hover, #facebook:active{
+	background-position:0px 0px;
+}
+#twitter{
+	background-position:-24px -25px;
+}
+#twitter:hover, #twitter:active{
+	background-position:-24px 0px;
+}
+/*shop specific*/
+.button a{
+	color:#FFF;
+}
+a.button, button.button, input.button, #review_form #submit {
+    color:#FFF;
+    text-transform:uppercase;
+    font-size:10px;
+    letter-spacing:-0.07em;
+    font-weight:bold;
+    border: medium none;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    float: left;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    margin: 0 2px 0 0;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+a.button {
+    color: #FFFFFF !important;
+    margin: 10px 0 0;
+    padding: 8px;
+}
+
+
+
+
+/*MORE*/
+.edit-link{
+	margin:0xpx 0 20px 0;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:red;
+}
+.edit-link  a.post-edit-link{
+	color:#90000;
+}
+
+.centre{
+	margin:0 auto;
+}
+.centre h1{
+	margin:70px 0 0 0;
+	font-size:50px;
+	color:rgb(107, 16, 96);
+}
+.centre h2 {
+    font-size: 40px;
+    margin: 15px 0 70px 0;
+    color:rgb(107, 16, 96);
+}
+
+#homeslides{
+	width:650px;
+	height:200px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.salonslides {
+    float: right;
+    height: 300px;
+    margin: 0 30px 30px 0;
+    width: 200px;
+    overflow:hidden;
+}
+.meteor-slides home { 
+	background-color:red;
+}
+
+h3 .gform_heading{
+	font-size:30px;
+}
+
+
+.xoxo li {
+    line-height: 15px;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    margin: 0 10px 0 0;
+}
+.gform_wrapper{
+	width:800px;
+	margin:0 auto;
+}
+.gform_wrapper input[type="text"], 
+.gform_wrapper input[type="url"], 
+.gform_wrapper input[type="email"], 
+.gform_wrapper input[type="tel"], 
+.gform_wrapper input[type="number"], 
+.gform_wrapper input[type="password"] {
+    font-family: inherit;
+    font-size: 15px !important;
+    letter-spacing: normal;
+    outline-style: none;
+    padding: 2px 4px !important;
+    background-color:#EEE;
+}
+#gforms_confirmation_message {
+    background-color: #EEE;
+    border: 1px solid #E6DB55;
+    color: #222222;
+    font-size: 1.4em;
+    margin: 10px auto;
+    padding: 30px 10px;
+    text-align: center;
+    width: 90%;
+}
+.clear{
+	clear:both;
+}
+.menu-top-navigation-container{
+}
+.entry-meta, .entry-utility {
+    display: none;
+}
+
+.listing{
+margin:12px 0;
+}
+.product_meta{
+display:none;
+}
+.logo{
+margin-bottom:8px;
+	margin-top: 60px;
+}

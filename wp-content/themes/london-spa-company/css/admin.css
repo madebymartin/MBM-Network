@@ -1,0 +1,15 @@
+.half{
+    width: 50%;
+    float:left;
+}
+.third{
+    width: 33.33%;
+    float:left;
+}
+.third .cmb-th, .third .cmb-td, .third .cmb-type-group .cmb-th+.cmb-td, .third .postbox-container .cmb-th+.cmb-td {
+    width: 90% !important;
+    float: none !important;
+}
+.cmb-th{
+	float: none !important;
+}

@@ -1,0 +1,169 @@
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+		font-family: oswald;
+		transition: all 0.2s ease;
+		padding-bottom: 1rem;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 1.5em;
+			left: -999em;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				&:hover > ul,
+				&.focus > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+	li {
+		float: none;
+		position: relative;
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+
+	a {
+		display: block;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    color: #fff;
+	    font-size: 1.25rem;
+	    margin: 0.25rem 1.5rem;
+	    padding: 0.5rem;
+	    transition: all 0.2s ease;
+	    border-bottom-width: 5px;
+	    border-color: transparent;
+	}
+	a:hover, a:focus{
+		background: #fff;
+		color: #6A1016;
+		border-color: #fff;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+		border-color: #fff;
+	}
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+.menu-toggle{
+    /* text-indent: -5000px; */
+    background: #fff;
+    float: right;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+// body.admin-bar .menu-toggle{
+//     top: 4.9rem;
+// }
+.menu-toggle:before, .menu-toggle:after{
+	display: block;
+	content:"";
+	background:#fff;
+}
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation{
+	    position: absolute;
+	    right: 1.5rem;
+	    bottom: 1.5rem;
+	    width: auto;
+		ul {
+			display: block;
+			padding-bottom: 0;
+			li{
+				float:left;
+				width:auto;
+				a{
+				    padding: 0.5rem;
+				    margin: 0.25rem;
+				    outline:none;
+				    border-style: solid;
+				    border-width: 0 0 5px;
+				}
+				a:hover, a:focus{
+				    background: transparent;
+				    color: #c31d29;
+		    		padding: 0 0.5rem 1rem;
+		    		border-color: #c31d29;
+				}
+			}
+			li.current_page_item a{
+				background: transparent;
+			    color: #fff;
+	    		padding: 0 0.5rem 1rem;
+	    		border-color: #fff;
+			}
+		}
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}

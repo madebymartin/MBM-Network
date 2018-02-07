@@ -1,0 +1,12 @@
+.author_gravatar {
+    display: block;
+    text-align: center;
+}
+.author_gravatar img {
+    border-radius: 50%;
+    height: 88px;
+    width: 88px;
+}
+
+
+/* 44536-1491902244-au */

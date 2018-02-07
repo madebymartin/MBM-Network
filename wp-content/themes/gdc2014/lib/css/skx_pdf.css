@@ -1,0 +1,29 @@
+@page{
+    padding:12mm;
+    width:210mm;
+    height:297mm;
+} 
+html, body{
+    margin:0; 
+    padding:0; 
+    font-size:9pt;
+    font-weight:300;
+    line-height:1.525;
+    font-family:'source sans pro', helvetica, arial, sans-serif; 
+    color:#555;
+}
+.logo{
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+}
+.logo img{
+    display: inline-block;
+    width: 200px !important;
+}
+img.productimage{
+    width: 20mm;
+}
+table tr td{
+    padding: 4mm 0;
+}

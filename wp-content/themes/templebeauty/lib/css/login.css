@@ -1,0 +1,78 @@
+body.login{
+background: url("../../images/temple-beauty-wood-backgnd.jpg") repeat scroll 0 0 transparent;
+}
+#login h1 a{
+background-image:url("../../images/temple-beauty-logo-brown.png");
+}
+.login form {
+    background: none repeat scroll 0 0 #332012;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+    font-weight: normal;
+    margin-left: -95px;
+    padding: 26px 24px 46px;
+    width: 460px;
+}
+.login #nav, .login #backtoblog {
+    background: none repeat scroll 0 0 #332012;
+    border: 1px solid #FFFFFF;
+    color: #222;
+    margin: 20px 0 0 -95px;
+    padding: 16px 25px;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: 460px;
+	text-align:center;
+}
+.login #nav a, .login #backtoblog a {
+    color: #ffffff !important;
+	margin:0 20px;
+	text-decoration:none;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+color:#330066 !important;
+}
+
+#login{
+padding:50px 0 0;
+	width: 320px;
+}
+.login label {
+    color: #fff;
+    font-size: 14px;
+}
+div#login h1 {
+    height: 140px;
+    margin: 0 auto 0px;
+    width: 260px;
+	background: transparent;
+}
+div#login h1 a {
+    background-size: auto auto;
+    height: 110px;
+    margin: 0;
+    width: 260px;
+}
+#backtoblog{
+display:none;
+}
+input.button-primary, button.button-primary, a.button-primary {
+    border-color: #888888;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.login .button-primary {
+    float: right;
+    padding: 6px 10px;
+    text-transform: uppercase;
+font-size:11px !important;
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+border-color:#fff;
+
+}
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+background: #72CCC7;
+
+}

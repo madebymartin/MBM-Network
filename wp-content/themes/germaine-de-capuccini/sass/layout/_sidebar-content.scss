@@ -1,0 +1,140 @@
+body.home #page{
+	position:relative;
+	background:#f1efe8;
+}
+#page{
+	position: relative;
+}
+.content-area {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+.site-main {
+	margin: 0;
+	padding: 0 0.5rem;
+	overflow: hidden;
+}
+.site-content .widget-area {
+	float: none;
+	overflow: hidden;
+	width: 96%;
+	margin: 0 2%;
+	background: #fff;
+	font-size:0.85rem;
+}
+.site-content{
+	padding:0;
+}
+.site-banners{
+	padding:1rem;
+	overflow:hidden;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+.woocommerce .widget_layered_nav span{
+	display: none;
+}
+#footer-widgets{
+	overflow: hidden;
+}
+
+
+
+@media #{$breakpoint-small} {
+	.site-content, .site-banners{
+		padding:0 4%;
+	}
+	.site-content{
+		background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+	}
+	body.single-product .site-content, body.woocommerce.tax-product_cat .site-content{
+		background: transparent;
+	}
+	.site-content .widget-area {
+		width: 98%;
+		margin: 0 0.5rem;
+	}
+	
+}
+
+@media #{$breakpoint-large} {
+	.content-area {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	.site-main {
+		margin: 0;
+	}
+	.site-content .widget-area {
+		float: left;
+		overflow: hidden;
+		width: $size__site-sidebar;
+		margin: 0;
+	}
+	.site-content, .site-banners{
+		padding:0 2%;
+	}
+	.site-footer {
+		clear: both;
+		width: $size__site-main;
+	}
+	#content, .site-content, #footer-widgets, .site-info{
+	    padding-top: 0;
+	    margin: 0 auto;
+	    max-width: 1500px;
+	}
+	body.home{
+		.site-content, #footer-widgets, .site-info, .site-banners{
+			max-width:1800px;
+			margin: 0 auto;
+		}
+	}
+	#page.scrolled{
+		padding-top:50px;
+	}
+
+
+	// Full width page templates
+	body.woocommerce.tax-product_cat, body.tax-treatment_category, body.page-template-template-treatments{
+
+		#content, .site-content{
+			max-width: 1800px;
+		}
+		.content-area {
+			float: none;
+			margin: 0;
+			width: 100%;
+		}
+		.site-main {
+			margin: 0;
+		}
+		.content-area {
+			float: right;
+			margin: 0 0 0 (-$size__site-sidebar);
+			width: $size__site-main;
+		}
+		.site-main {
+			margin: 0 0 0 $size__site-sidebar;
+			padding: 0 2rem 0 0.5rem;
+		}
+		.site-content .widget-area {
+			float: left;
+			overflow: hidden;
+			width: $size__site-sidebar;
+			background: #fff;
+		}
+	}
+	body.woocommerce.tax-product_cat{
+		.site-content .widget-area {
+			margin-top: 2.5rem;
+		}
+	}
+
+	body.single-product{
+
+	}
+}

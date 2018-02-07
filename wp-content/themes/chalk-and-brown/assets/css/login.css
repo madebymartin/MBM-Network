@@ -1,0 +1,51 @@
+/******************************************************************
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded is only on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+Make sure functions/admin.php is activated in your functions.php file.
+
+This stylesheet is turned off by default.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+.login h1 a {
+    background: url(../images/chalk-and-brown-logo.svg) no-repeat top center;
+    width: 100%;
+    height: 10rem;
+    text-indent: -9999px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    display: block;
+    outline: none;
+}
+
+body{
+	background: #C2C2A4 !important;
+}
+#backtoblog{
+	display: none;
+}
+.login #login_error, .login .message {
+    border-left: 4px solid #655245;
+}
+.wp-core-ui .button-primary {
+    background: #655245;
+    border-color: #655245 #655245 #655245;
+    -webkit-box-shadow: 0 1px 0 #655245;
+    box-shadow: 0 1px 0 #655245;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #655245, 1px 0 1px #655245, 0 1px 1px #655245, -1px 0 1px #655245;
+    transition: all 0.2s ease;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #899464;
+    border-color: #899464;
+    color: #fff;
+}

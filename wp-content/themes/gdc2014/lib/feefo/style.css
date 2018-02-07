@@ -1,0 +1,389 @@
+*{font-size:100.01%}
+html {font-size:62.5%;height:100%;}
+body {
+	margin:0 0 10px;
+	font:1.2em Arial, Helvetica, sans-serif;
+	background:#d0d4d7;
+	color:#000;
+	height:100%;
+}
+img {border:none;}
+form,
+object,
+embed {
+	padding:0;
+	margin:0;
+}
+.f-right {float:right !important;}
+a {text-decoration:none;
+color:#6d6e70;}
+a:hover {text-decoration:underline;}
+.header:after,
+.service-title:after,
+.latest-cnt:after,
+.latest:after,
+.charts:after,
+.thought-cnt:after {
+	content:" ";
+	display:block;
+	width:100%;
+	overflow:hidden;
+	height:0;
+	clear:both;
+}
+/*page*/
+#page {
+	width:938px;
+	margin:10px auto 0;
+	padding:11px 13px 0 15px;
+	background:#fff;
+	overflow:hidden;
+}
+/* thought page */
+
+/* thought box start*/
+.thought {
+	height:1%;
+	overflow:hidden;
+	padding:0 0 35px;
+}
+.thought-txt {
+	float:left;
+	width:698px;
+	padding:18px 0 0;
+}
+/* thought title */
+.thought-title {
+	height:1%;
+	overflow:hidden;
+	padding:0 0 7px;
+	background:url(../images/dotted03.gif) repeat-x 0 100%;
+}
+.thought-title p {
+	float:left;
+	width:238px;
+	font:22px Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.thought-title p span {
+	height:24px;
+	overflow:hidden;
+	display:block;
+}
+.thought-title h1 {
+	float:left;
+	margin:0;
+	font:bold 1.9em/1em Georgia, "Times New Roman", Times, serif;
+}
+.thought-cnt {
+	height:1%;
+	padding:15px 0 0;
+}
+/* thought column */
+.thought-col {
+	float:left;
+	width:224px;
+}
+/*.thought-col img {
+	display:block;
+	border:1px solid #a7a9ac;
+       border:0px;
+}
+*/
+.thought-col .supplier {margin:12px 30px 15px 0;}
+
+ul.detail-list {
+	height:1%;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:#e7e7e8;
+}
+ul.detail-list li {
+	height:1%;
+	overflow:hidden;
+	line-height:1.4em;
+	padding:0 0 0 3px;
+	vertical-align:top;
+	border-bottom:1px solid #fff;
+}
+ul.detail-list li.detail-title {background:#bcbdc0;}
+ul.detail-list li.detail-txt {background:#fff;}
+ul.detail-list li.detail-link {background:#ffde00;}
+ul.detail-list li p {
+	margin:12px 0;
+	line-height:1.1em;
+}
+ul.detail-list li.detail-link a {
+	display:block;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none !important;
+	background:url(../images/arrow.gif) no-repeat 210px .2em;
+}
+ul.detail-list li.detail-link a:hover {
+	color:#939598;
+	background-image:url(../images/arrow2.gif);
+}
+/* thought info */
+.thought-info {
+	float:right;
+	width:460px;
+}
+.shows {
+	height:1%;
+	overflow:hidden;
+	padding:0 0 40px;
+}
+.shows p {
+	margin:0 0 3px;
+	line-height:1em;
+}
+.shows-cnt {
+	height:1%;
+	overflow:hidden;
+}
+.shows-cnt label {
+	float:left;
+	width:40px;
+	font:bold 1em/1.6em Arial, Helvetica, sans-serif;
+}
+
+
+/* Added to make ALL a coloured link  */
+
+.shows-cnt label a {color:#000;}
+
+/* End Added to make ALL a coloured link  */
+
+
+.shows-cnt select {
+	float:left;
+	font:1em Arial, Helvetica, sans-serif;
+	width:203px;
+}
+
+
+
+
+/* thought cookie trail */
+
+.shows-cky {
+	height:1%;
+	overflow:hidden;
+}
+.shows-cky label {
+	float:left;
+	width:240px;
+	font:bold 1em/1.6em Arial, Helvetica, sans-serif;
+}
+.shows-cky select {
+	float:left;
+	font:1em Arial, Helvetica, sans-serif;
+	width:203px;
+}
+
+
+/* sacha modified code */
+ul.category-nav {
+	padding:0;
+	margin:0 0 13px;
+	list-style:none;
+	overflow:hidden;
+	height:1%;
+}
+ul.category-nav li {
+	float:left;
+	padding:0 8px 0 0;
+}
+ul.category-nav li.active {font-weight:bold;}
+ul.category-nav li a {color:#000;}
+
+
+/* end sacha modified code */
+
+
+/* END thought cookie trail */
+
+/* INSERTED BY BILL 07/07/09 */
+.alsobought {
+	color:#808080;
+}
+
+/* END BILL STUFF */
+
+
+
+
+.charts {height:1%;}
+.charts-box {
+	float:left;
+	width:224px;
+	padding:0 0 10px;
+}
+.guide {
+	height:1%;
+	overflow:hidden;
+}
+.guide p {margin:0 0 3px;}
+.guide dl {
+	width:200px;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:1.6em;
+}
+.guide dl dt {
+	float:left;
+	width:57px;
+	color:#1aa54c;
+}
+.guide dl dt.bad {color:#ef4030;}
+.guide dl dd {margin:0 0 0 57px;}
+.guide dl img {
+	vertical-align:top;
+	margin:0 2px 0 0;
+}
+* html .guide dl img {vertical-align:baseline;}
+
+/* comments box start*/
+.comments {
+	overflow:hidden;
+	padding:0 0 20px;
+}
+.comments-title {
+	background:url(../images/dotted02.gif) repeat-x 0 100%;
+	height:1%;
+	padding:0 0 6px;
+	margin:0 0 20px;
+	overflow:hidden;
+}
+.comments-title h2 {
+	float:left;
+	margin:0 23px 0 0;
+	font:bold 1.5em Arial, Helvetica, sans-serif;
+}
+ul.sort-list {
+	float:left;
+	padding:5px 0 0;
+	margin:0;
+	list-style:none;
+}
+ul.sort-list li {
+	float:left;
+	padding:0 11px 0 0; 
+}
+ul.sort-list li a,
+.comm-table h3 a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none !important;
+}
+ul.sort-list li a:hover,
+.comm-table h3 a:hover {color:#939598;}
+
+ul.page-nav {
+	float:right;
+	padding:6px 0 0;
+	margin:0;
+	list-style:none;
+}
+ul.page-nav li {
+	float:left;
+	padding:0 0 0 3px;
+}
+ul.page-nav li a {
+	color:#333;
+	font-size:1.084em;
+	text-decoration:none !important;
+}
+ul.page-nav li a:hover {color:#000;}
+
+.comm-table {
+	width:100%;
+	border-collapse:collapse;
+}
+.comm-table th {
+	background:#bcbdc0;
+	padding:0 4px;
+	text-align:left;
+	border-bottom:1px solid #fff;
+}
+.comm-table td {
+	vertical-align:top;
+	padding:4px 10px 4px 4px;
+	border-bottom:1px solid #fff;
+	background:#fff4bf;
+}
+.comm-table .row td {background:#ffec95;}
+.comm-table h3 {
+	font:bold 1em Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.comm-table ul {
+	padding:0;
+	margin:0;
+	height:1%;
+	overflow:hidden;
+}
+.comm-table ul li {height:1%;}
+.comm-table p {margin:0;}
+.comm-table a {
+	color:#000;
+	text-decoration:underline;
+}
+.comm-table a:hover {
+	color:#939598;
+	text-decoration:none;
+}
+.comm-rating {
+	overflow:hidden;
+	padding:0 0 8px;
+}
+.comm-rating em {
+	display:block;
+	font-style:normal;
+}
+.comm-rating img {vertical-align:middle;}
+.show-nav {
+	height:1%;
+	padding:2px 0 0;
+	overflow:hidden;
+}
+ul.show-list {
+	float:left;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+ul.show-list li {
+	float:left;
+	padding:0 3px 0 0;
+}
+ul.show-list li.active {font-weight:bold;}
+ul.show-list li a {color:#000;}
+.show-nav ul.page-nav {padding-top:0;}
+/* comments box end*/
+/* thought box end*/
+
+/* These are standard sIFR styles... do not modify */
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+.sIFR-replaced {visibility: visible !important;}
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+/* Hide Adblock Object tab: the text should show up just fine, not poorly with a tab laid over it. */
+.sIFR-flash + div[adblocktab=true] {display: none !important;}
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+#negativeFeed {display:none;}

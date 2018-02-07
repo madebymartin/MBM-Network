@@ -1,0 +1,16 @@
+@import "colors";
+@import "typography";
+@import "structure";
+
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 90em;
+ 
+ 
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 600px)";
+$under-breakpoint-small: "only screen and (max-width: 599px)";
+
+$breakpoint-medium: "only screen and (min-width: 666px)";
+$breakpoint-large: "only screen and (min-width: 1023px)";
+$breakpoint-xlarge: "only screen and (min-width: 1400px)";

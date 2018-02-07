@@ -1,0 +1,92 @@
+<?php
+
+    // calling the header.php
+    get_header();
+
+    // action hook for placing content above #container
+    thematic_abovecontainer();
+
+?>
+
+		<div id="container">
+			
+			<?php thematic_abovecontent(); ?>
+			
+			<div id="content">
+		
+    	        <?php 
+    	        
+    	        the_post();
+    	        
+    	        // create the navigation above the content
+				thematic_navigation_above();
+		
+    	        // calling the widget area 'single-top'
+    	        get_sidebar('single-top');?>
+		
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+
+
+<?php if ( get_post_meta(get_the_ID(), '_cmb_treatment_subtitle', true) ) { ?>
+<span class="treatment_subtitle"><?php echo get_post_meta(get_the_ID(), "_cmb_treatment_subtitle", true); ?></span>
+<?php } else { ?><span></span><?php } ?>
+
+
+<?php if ( get_post_meta(get_the_ID(), '_cmb_treatment_price', true) ) { ?>
+<span class="treatment_price">£<?php echo get_post_meta(get_the_ID(), "_cmb_treatment_price", true); ?></span>
+<?php } else { ?><span></span><?php }?>
+
+<div class="clear"></div>
+
+<?php the_content(); ?>
+<?php edit_post_link(__('Edit', 'thematic'),'<span class="edit-link">','</span>') ?>
+
+
+
+<div class="clear"></div>
+<?php
+				
+				// action hook creating the single post
+    	        // thematic_singlepost();
+
+    	        // calling the widget area 'single-insert'
+    	        get_sidebar('single-insert');
+		
+    	        // create the navigation below the content
+				// thematic_navigation_below();
+		
+/*---Remove Comments from default page template---*/
+	        
+	        // calling the comments template
+       		// if (THEMATIC_COMPATIBLE_COMMENT_HANDLING) {
+			//	if ( get_post_custom_values('comments') ) {
+			//		// Add a key/value of "comments" to enable comments on pages!
+			//		thematic_comments_template();
+			//	}
+			// } else {
+			//	thematic_comments_template();
+			// }
+		
+    	        // calling the widget area 'single-bottom'
+    	        get_sidebar('single-bottom');
+    	        
+    	        ?>
+		
+			</div><!-- #content -->
+			
+			<?php thematic_belowcontent(); ?> 
+			
+		</div><!-- #container -->
+		
+<?php 
+
+    // action hook for placing content below #container
+    thematic_belowcontainer();
+
+    // calling the standard sidebar 
+    thematic_sidebar();
+    
+    // calling footer.php
+    get_footer();
+
+?>

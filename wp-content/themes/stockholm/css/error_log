@@ -1,0 +1,2 @@
+[30-Aug-2017 07:33:32 UTC] PHP Warning:  getimagesize(/usr/local/apache/htdocs/~oliverdrake/wp-content/themes/stockholm/img/logo.png): failed to open stream: No such file or directory in /home/oliverdrake/public_html/wp-content/themes/stockholm/css/style_dynamic.php on line 988
+[30-Aug-2017 07:36:27 UTC] PHP Warning:  getimagesize(/usr/local/apache/htdocs/stockholm20/wp-content/uploads/2014/09/Untitled-3.png): failed to open stream: No such file or directory in /home/oliverdrake/public_html/wp-content/themes/stockholm/css/style_dynamic.php on line 988

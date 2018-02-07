@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Antenna Condensed";
+  src: url("../fonts/Dubtronic-Inline.otf")  format("opentype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Antenna Condensed";
+  src: url("../fonts/AntennaCond-BlackItalic.otf")  format("opentype");
+  font-weight: 800;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Adelle";
+  src: url("../fonts/Adelle-Regular.otf")  format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Adelle";
+  src: url("../fonts/Adelle-Italic.otf")  format("opentype");
+  font-weight: 400;
+  font-style: oblique;
+}
+
+/*	font-family: "Antenna Condensed", sans-serif;
+	font-weight: 800;
+*/

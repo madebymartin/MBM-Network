@@ -1,0 +1,60 @@
+.widget {
+	margin: 0 0 1.5em;
+	padding: 0 2rem;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+	h2{
+		margin:1.5rem 0 0.5rem;
+		font-size: 1.25rem;
+		text-transform: none;
+	}
+
+	ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+		
+	}
+	ul.treatment-menu{
+		margin: 1rem 0 0;
+		li a{
+			display: block;
+			text-decoration: none;
+		    padding: 0.25rem 0;
+		    margin: 0.25rem 0;
+		}
+	}
+}
+#footer-widgets{
+	.widget {
+		float: left;
+		width:100%;
+		padding: 0;
+		h2{
+			border-bottom: 1px solid #333;
+			padding-bottom: 0.5rem;
+		}
+	}
+}
+
+
+@media #{$breakpoint-medium} {
+	#footer-widgets{
+		.widget {
+			float: left;
+			width:50%;
+			padding: 0 2rem 0 0;
+		}
+	}
+}
+@media #{$breakpoint-large} {
+	#footer-widgets{
+		.widget {
+			float: left;
+			width:25%;
+		}
+	}
+}

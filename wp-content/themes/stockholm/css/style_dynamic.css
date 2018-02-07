@@ -1,0 +1,693 @@
+
+
+
+    body{
+    	    	    	    	    }
+            body,
+		.wrapper,
+        .content,
+        .full_width,
+		.content .container,
+		.more_facts_holder{
+        	background-color:#000000;
+        }
+    
+
+.header_bottom,
+.header_top {
+	background-color: rgba(0,0,0,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.content{
+		margin-top: 0;
+	}
+
+	.logo_wrapper,
+	.side_menu_button,
+	.shopping_cart_inner{
+		height: 140px;
+	}
+
+			.content.content_top_margin{
+			margin-top: 140px !important;
+		}
+		
+
+	header:not(.centered_logo) .header_fixed_right_area {
+	    line-height: 140px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	header.sticky .header_bottom,
+	header.fixed.scrolled .header_bottom,
+	header.fixed_hiding.scrolled .header_bottom{
+		box-shadow: none; 
+		-webkit-box-shadow: none;
+	}
+
+
+
+        @media only screen and (min-width: 1000px){
+            header.fixed_hiding .q_logo a,
+            header.fixed_hiding .q_logo{
+                max-height: 0px;
+            }
+        }
+    
+
+
+
+    .touch section.parallax_section_holder{
+		height: auto !important;
+		min-height: 300px;
+		background-position: center top !important;
+		background-attachment: scroll;
+        background-size: cover;
+	}
+nav.main_menu > ul > li > a{
+	line-height: 140px;
+}
+
+
+
+
+nav.main_menu > ul > li > a{
+	 color: #ffffff; 		font-family: 'Poppins', sans-serif;
+		 font-size: 15px;     		 font-weight: 200; 	 text-transform: uppercase;  	
+	 letter-spacing: 0px; }
+
+nav.main_menu ul li:hover a,
+header:not(.with_hover_bg_color) nav.main_menu > ul > li:hover > a{
+	color: #bfbfbf;
+}
+
+	nav.main_menu > ul > li.active > a{
+	    color: #bfbfbf	}
+
+    nav.main_menu > ul > li:not(:first-child):before,
+    header.stick_with_left_right_menu.sticky nav.main_menu.right_side > ul > li:not(:first-child):before{
+         color: #ffffff;          font-size: 15px;     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	h1{
+			color: #ffffff; 											    	    	}
+	h2{
+				font-size: 32px; 						font-weight: 800; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h2, h2 a{
+		color: #ffffff; 	}		
+	h3{
+				font-family: 'Raleway', sans-serif;
+				font-size: 28px; 				font-style: normal; 		font-weight: 700; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h3, h3 a{
+		color: #ffffff; 	}
+	h4{
+				font-size: 16px; 						font-weight: 700; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h4,	h4 a{
+		color: #ffffff; 	}
+	h5{
+				font-size: 20px; 						font-weight: 800; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h5,	h5 a{
+		color: #ffffff; 	}
+	h6{
+				font-family: 'Raleway', sans-serif;
+				font-size: 14px; 				font-style: normal;  		font-weight: 600; 					}
+	h6, h6 a{
+		color: #ffffff; 	}
+
+
+	p{
+		font-family: "Poppins", sans-serif;margin-top: 15px;margin-bottom: 15px	}
+
+
+
+
+	blockquote h3, blockquote > p{
+		font-family: Raleway, sans-serif;font-size: 18px;letter-spacing: 0px;font-weight: 600;font-style: normal;text-transform: none;color: #8b8b8b	}
+
+
+
+	.title h1{
+		color: #ffffff; 				font-size: 42px; 								letter-spacing: 0px; 		text-transform: capitalize; 	}
+
+	.subtitle{
+    color: #ffffff;             font-family: 'Raleway', sans-serif;
+        font-size: 21px; 	    font-style: normal; 	font-weight: 600; 	text-transform: none; 		
+	}
+
+
+
+
+
+
+
+
+
+	.blog_holder.masonry article:not(.format-quote):not(.format-link) h4, 
+	.blog_holder.masonry_full_width article:not(.format-quote):not(.format-link) h4,
+	.latest_post_holder .latest_post_title{
+		font-size: 18px	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.blog_holder.blog_single article.format-quote .post_text .post_title h3, 
+	.blog_holder.blog_single article.format-link .post_text .post_title h3 a,
+	.blog_holder.blog_single article.format-quote .post_text .quote_author{
+		font-weight: 600	}
+
+
+	.blog_holder article .post_info,
+	.blog_holder.blog_chequered article .quote_author,
+	.latest_post_holder .post_info_section span, .latest_post_holder .post_info_section a{
+		font-family: Raleway, sans-serif;font-weight: 700;font-style: normal;text-transform: capitalize	}
+
+
+
+
+
+	.blog_holder.masonry .post_author, 
+	.blog_holder.masonry .post_author a, 
+	.blog_holder.masonry_full_width .post_author, 
+	.blog_holder.masonry_full_width .post_author a,
+	.latest_post_holder .post_author, .latest_post_holder a.post_author_link,
+	.blog_holder.pinterest_full_width .post_comments{
+		font-family: Raleway, sans-serif;font-weight: 600;font-style: normal;text-transform: capitalize	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.price_table_inner ul li.table_title .title_content{
+		font-size: 19px;letter-spacing: 0px;font-weight: 700;text-transform: capitalize	}
+
+	.price_in_table .mark{
+		font-family: Raleway, sans-serif;font-style: normal	}
+
+
+
+	.price_table_inner .price_button a{
+		font-size: 17px;letter-spacing: 1px;font-weight: 800	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.qbutton,
+	.qbutton.medium,
+	#submit_comment,
+	.load_more a,
+	.blog_load_more_button a,
+	.blog_holder article .post_text a.more-link span{
+		font-family: Poppins;	}
+		.qbutton:hover,
+	.qbutton:not(.white):hover,
+	.qbutton.medium:hover,
+	#submit_comment:hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	.blog_holder article .post_text a.more-link:hover span{
+	    color: #ffffff;background-color: #393939;border-color: #393939;	}
+	
+	#back_to_top > span{
+		background-color: #585858;	}
+	
+	#back_to_top:hover > span{
+		background-color: #dd9933;	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.q_counter_holder span.counter{
+					}
+	.q_counter_holder p.counter_text{
+			font-weight: 600; 		text-transform: capitalize; 			font-size: 14px; line-height: 1.25em; 	}
+	.countdown-period{
+						}
+
+
+
+
+.q_google_map{
+	height: 365px;
+}
+	.footer_top_holder{
+		background-color:#000000;
+	}
+
+
+
+	.footer_top,
+	.footer_top p,
+    .footer_top span:not(.q_social_icon_holder):not(.fa-stack):not(.social_icon):not(.social_twitter):not(.q_font_elegant_icon),
+    .footer_top li,
+    .footer_top .textwidget,
+    .footer_top .widget_recent_entries>ul>li>span{
+		font-family: Poppins, sans-serif	}
+
+	.footer_top a{
+		font-family: Poppins, sans-serif	}
+
+
+	.footer_bottom_holder{
+		background-color:#393939;
+	}
+
+	
+	.footer_bottom, 
+	.footer_bottom span:not(.q_social_icon_holder):not(.fa-stack):not(.social_icon),
+	.footer_bottom p{
+		color: #ffffff	}
+
+
+
+	.footer_top .widget h4 {
+		font-family: Poppins, sans-serif;color: #ffffff	}
+
+
+
+
+
+	aside.sidebar .widget h4,
+	.woocommerce aside.sidebar .widget h4{
+		letter-spacing: 0px	}
+
+	aside.sidebar .widget:not(.woocommerce) a,
+	.woocommerce aside.sidebar .woocommerce.widget ul.product-categories a,
+	.woocommerce-page aside.sidebar .woocommerce.widget ul.product-categories a,
+	.woocommerce aside.sidebar .woocommerce.widget ul.product-categories ul.children li a,
+	aside ul.product-categories ul.children li a,
+	.woocommerce-page aside.sidebar .woocommerce.widget ul.product-categories ul.children li a,
+	aside.sidebar .widget.woocommerce ul.product-categories li a{
+		font-family: Raleway, sans-serif;font-size: 13px;font-style: normal	}
+
+
+
+
+
+
+
+
+	.side_menu  {
+	text-align: left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .carousel-control .prev_nav, .carousel-control .next_nav{ 
+    	background-color: #000000; 
+	}
+    .carousel-control .prev_nav:hover, .carousel-control .next_nav:hover{ 
+    	color: #ffffff; 
+	}
+
+    .carousel-inner .slider_content .slide_buttons_holder .qbutton:not(.white){ 
+    	background-color: #000000 !important;border-color: #000000 !important; 
+	}
+    .carousel-inner .slider_content .slide_buttons_holder .qbutton:not(.white):hover{ 
+    	background-color: #000000 !important;border-color: #000000 !important; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.projects_holder article .portfolio_description{
+		background-color: #000000;
+	}
+
+	.projects_holder article .portfolio_description{
+		background-color: transparent;
+	}
+
+	.projects_holder.standard article .portfolio_description, 
+	.projects_holder.standard_no_space article .portfolio_description {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.masonry_with_space .projects_holder article .portfolio_description {
+		padding: 35px 0 43px;
+	}
+
+	
+    .projects_holder article .portfolio_shader, .projects_masonry_holder article .portfolio_shader, .portfolio_slides .portfolio_shader{
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .projects_holder article .portfolio_title, .projects_masonry_holder article .portfolio_title{
+    	margin: 0;
+    }
+    .projects_holder.standard article .portfolio_description, .projects_holder.standard_no_space article .portfolio_description{
+    	padding-bottom: 20px;
+    }
+    .masonry_with_space .projects_holder article .portfolio_description{
+		padding-bottom: 35px;
+	}
+		
+
+
+
+
+
+
+
+
+
+
+.filter_holder ul li.filter_title span{
+	color: #dd9933;font-family: Poppins;font-size: 16px;font-weight: 600;letter-spacing: 0px;text-transform: capitalize;}
+
+.filter_holder ul li:not(.filter_title) span{
+color: #ffffff;font-family: Poppins;font-size: 16px;font-weight: 500;letter-spacing: 0px;text-transform: capitalize;    }
+    .filter_holder ul li span:after{
+        color: #ffffff;
+    }
+
+    .projects_holder.standard article .portfolio_title, .projects_holder.standard article .portfolio_title a, .projects_holder.standard_no_space article .portfolio_title, .projects_holder.standard_no_space article .portfolio_title a, .projects_holder .pinterest_info_on_hover .portfolio_title{
+    	color: #ffffff;font-family: Poppins;font-size: 16px;font-weight: 300;letter-spacing: 0px;    }
+    
+    .projects_holder.standard article .project_category, .projects_holder.standard_no_space article .project_category,.projects_holder.standard .pinterest_info_on_hover .project_category{
+    font-family: Raleway;font-size: 13px;font-style: normal;font-weight: 500;    }
+    
+    .projects_holder.hover_text article .portfolio_title, .projects_masonry_holder article .portfolio_title, .portfolio_slides .portfolio_title{
+    	font-size: 22px;font-weight: 700;letter-spacing: 0px;text-transform: capitalize;    }
+    
+    .projects_holder.hover_text article .project_category, .portfolio_slides .project_category, .projects_masonry_holder .project_category{
+    font-family: Raleway;font-size: 14px;line-height: 35px;font-style: normal;font-weight: 500;letter-spacing: 0px;    }
+    
+    .projects_holder article .icons_holder a,
+	.projects_masonry_holder article .icons_holder a,
+	.portfolio_slides .icons_holder a{
+		 color: #ffffff; 		 background-color: transparent; 		 border-color: transparent; 			}
+
+    .projects_holder article .icons_holder a:hover,
+	.projects_masonry_holder article .icons_holder a:hover,
+	.portfolio_slides .icons_holder a:hover{
+		 color: #ffffff; 		 background-color: transparent; 		 border-color: transparent; 	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.woocommerce-page ul.products li.product, 
+	.woocommerce ul.products li.product{
+		text-align: left;
+	}
+
+
+
+
+
+	.woocommerce ul.products li.product span.product-categories,
+	.woocommerce-page ul.products li.product span.product-categories{
+		display:none;
+	}
+	.woocommerce-page ul.products li.product .product_info_box,
+	.woocommerce ul.products li.product .product_info_box{
+		padding-top:18px;
+	}
+
+	.woocommerce ul.products li.product span.product-title,
+	.woocommerce aside ul.product_list_widget li a,
+	aside ul.product_list_widget li a{
+		font-size: 16px;letter-spacing: 0px;text-transform: capitalize	}
+
+
+	.woocommerce ul.products li.product .price, 
+	.woocommerce-page ul.products li.product .price,
+	.woocommerce ul.products li.product del .amount, .woocommerce-page ul.products li.product del .amount,
+	.woocommerce aside ul.product_list_widget li span.amount, 
+	aside ul.product_list_widget li span.amount{
+		font-family: "Raleway", sans-serif;font-size: 16px;letter-spacing: 0px;font-weight: 600;font-style: normal	}
+
+
+	.woocommerce .product .onsale.out-of-stock-button,
+	.woocommerce ul.products.standard li.product .onsale.out-of-stock-button{
+		font-family: Raleway, sans-serif;font-size: 12px;line-height: 18px;letter-spacing: 0px;font-weight: 700;font-style: normal;text-transform: uppercase	}
+
+
+
+
+
+	.woocommerce .woocommerce-result-count{
+		text-transform: capitalize	}
+
+	.woocommerce ul.products li.product .add-to-cart-button,
+	.woocommerce ul.products li.product .added_to_cart,
+	.woocommerce .widget_price_filter .button, 
+	.woocommerce-page .widget_price_filter .button,
+	.woocommerce .widget_shopping_cart_content p.buttons a.button,
+	.woocommerce .button,
+	.woocommerce-page .button,
+	.woocommerce button.button,
+	.woocommerce-page button.button,
+	.woocommerce-page input[type="submit"]:not(.qode_search_field),
+	.woocommerce input[type="submit"]:not(.qode_search_field),
+	.woocommerce ul.products li.product .added_to_cart{
+		color: #ffffff;background-color: #e6ae48;border-color: #e6ae48	}
+	.woocommerce ul.products li.product a.add_to_cart_button:hover,
+	.woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+	.woocommerce ul.products li.product .added_to_cart:hover,
+	.woocommerce-page ul.products li.product .added_to_cart:hover,
+	.woocommerce .widget_price_filter .button:hover, 
+	.woocommerce-page .widget_price_filter .button:hover,
+	.woocommerce .widget_shopping_cart_content p.buttons a.button:hover,
+	.woocommerce .button:hover,
+	.woocommerce-page .button:hover,
+	.woocommerce button.button:hover,
+	.woocommerce-page button.button:hover,
+	.woocommerce #submit:hover,
+	.woocommerce ul.products li.product a.qbutton:hover,
+	.woocommerce-page ul.products li.product a.qbutton:hover,
+	.woocommerce ul.products li.product .added_to_cart:hover,
+	.woocommerce-page input[type="submit"]:not(.qode_search_field):hover,
+	.woocommerce input[type="submit"]:not(.qode_search_field):hover{
+		color: #ffffff;background-color: #393939;border-color: #393939	}
+
+
+
+
+	
+	
+	.woocommerce div.product div.product_meta > span span,
+	.woocommerce div.product div.product_meta > span a{
+		font-family: Raleway, sans-serif;font-weight: 600;font-style: normal	}
+	
+
+	.woocommerce .product h2.product_title{
+		font-size: 32px;letter-spacing: 0px;font-weight: 700	}
+
+
+	.woocommerce.single-product button.single_add_to_cart_button{
+		color: #ffffff;background-color: #e6ae48;border-color: #e6ae48	}
+	.woocommerce.single-product button.single_add_to_cart_button:hover{
+		color: #ffffff;background-color: #393939;border-color: #393939	}
+
+	.woocommerce div.product .summary p.price span.amount{
+		font-family: "Raleway", sans-serif;font-size: 28px;line-height: 40px;letter-spacing: 0px;font-weight: 700;font-style: normal	}
+
+	
+
+
+	.woocommerce ul.products.standard li.product .qodef-product-standard-info-top .qodef-product-list-categories {
+		display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date,
+	.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea,
+	.cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz,
+	.contact_form.cf7_custom_style_1 input[type='text'],
+	.contact_form.cf7_custom_style_1 textarea{
+	font-family: Poppins;	}
+
+
+
+	.cf7_custom_style_1 .animate_input_holder .animate_input_text {
+	font-family: Poppins;	}
+
+
+
+

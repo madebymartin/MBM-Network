@@ -1,0 +1,15 @@
+@import "buttons";
+
+@import "fields";
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    width: 100%;
+    margin: 0 0 16px;
+    background: #6A1016;
+    color: #fff;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+}

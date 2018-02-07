@@ -1,0 +1,179 @@
+body.login{
+background: url(../img/login.jpg) no-repeat;
+background-size: 100% 100%;
+background-size: cover;
+padding: 2em;
+}
+#login h1 a{
+background-image: url("../img/totally-uk-logo.png");
+background-size: auto 100% !important;
+}
+.login form {
+background: transparent;
+border: 0px solid #FFFFFF;
+box-shadow: none;
+font-weight: normal;
+padding: 2em;
+width: 80%;
+margin: 0 auto;
+max-width: 50em;
+border-radius: 0.7em;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+background: #fbfbfb;
+padding: 0.9em;
+font-size: 1.3em;
+text-align: center;
+margin: 0 auto 1em;
+border-radius: 0.5em;
+}
+.login #nav, .login #backtoblog {
+background: transparent;
+border: 0px solid #FFFFFF;
+color: #fff;
+margin: 1.5em auto;
+padding: 1em;
+text-shadow: none;
+text-transform: uppercase;
+width: 100%;
+text-align: center;
+max-width: 30em;
+}
+.login #nav a, .login #backtoblog a {
+color: #ffffff !important;
+margin:0 auto;
+text-decoration:none;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+color: #fb7c00 !important;
+}
+.message {
+margin-left: 0;
+padding: 1em;
+max-width: 40em;
+margin: 2em auto !important;
+text-align: center;
+}
+.login .message {
+border-left: 0.6em solid #fb7c00;
+background-color: #fff;
+-webkit-box-shadow: none;
+box-shadow: none;
+margin: 1em auto 0 !important;
+width: 80%;
+max-width: 30em;
+text-transform: uppercase;
+}
+#login{
+padding:1em 0 0;
+width: 100%;
+}
+.login label {
+color: #fff;
+font-size: 1em;
+text-align: center;
+width: 100%;
+display: block;
+text-transform: uppercase;
+}
+#login form p {
+margin-bottom: 1em;
+width: 100%;
+}
+#login form p.forgetmenot input{
+border-radius:0;
+}
+div#login h1 {
+height: auto;
+margin: 0 auto;
+width: 100%;
+background: transparent;
+overflow: hidden;
+}
+div#login h1 a {
+  background-size: auto auto;
+  height: 3.5em;
+  margin: 0;
+  width: auto;
+}
+#backtoblog{
+display:none;
+}
+.wp-core-ui .button-primary, input.button-primary, button.button-primary, a.button-primary {
+background: transparent;
+border-color: #fff;
+-webkit-box-shadow: none;
+box-shadow: none;
+color: #fff;
+text-decoration: none;
+border-width: 2px;
+padding: 0.8em !important;
+display: block;
+width: 50%;
+float: none !important;
+margin: 3em auto 0;
+clear: both;
+max-width: 10em;
+height: auto !important;
+border-radius: 0.5em;
+font-size: 2.2em !important;
+font-weight: 300 !important;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+background: #fb7c00;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-color: #fff;
+color: #fff;
+}
+.login a{
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.login .button-primary {
+float: right;
+padding: 1em;
+text-transform: uppercase;
+font-size: 1em;
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+border-color:#fff;
+
+}
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+background: #72CCC7;
+}
+@media only screen and (max-width: 30em) {
+    body.login{
+    font-size: 0.5em;
+    }
+    div#login h1 a {
+      height: 3em;
+    }
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    text-shadow: none !important;
+    width: 100%;
+    padding: 0.4em !important;
+    background: #472407;
+    border: none !important;
+    box-shadow: none;
+    border-radius: 0.25em;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #fa9139 !important;
+}
+.login #backtoblog, .login #nav {
+    padding: 1em 0 0 !important;
+    margin: 0 !important;
+}

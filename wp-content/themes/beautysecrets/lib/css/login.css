@@ -1,0 +1,73 @@
+body.login{
+background:url("../../images/bg_texture.jpg") repeat;
+}
+#login h1 a{
+background-image:url("../../images/beautysecretslogo.jpg");
+}
+.login form {
+    background: none repeat scroll 0 0 #850E76;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+    font-weight: normal;
+    margin-left: -95px;
+    padding: 26px 24px 46px;
+    width: 460px;
+}
+.login label {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.login #nav, .login #backtoblog {
+    background: none repeat scroll 0 0 #850E76;
+    border: 1px solid #FFFFFF;
+    color: #222;
+    margin: 20px 0 0 -95px;
+    padding: 16px 25px;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: 460px;
+	text-align:center;
+}
+.login #nav a, .login #backtoblog a {
+    color: #ffffff !important;
+	margin:0 20px;
+	text-decoration:none;
+}
+.loginlogo {
+position:absolute;
+    color:#FFF;
+    text-decoration:none;
+	background:url("../../images/GDC-Website-LOGOwhite.png") no-repeat top right;
+	display:block;
+	text-indent:-9000px;
+	width: 83px;
+	height: 600px;
+	left:30px;
+top:30px;
+}
+#login{
+padding:50px 0 0;
+}
+div#login h1{
+	height: 65px;
+    margin: 0 auto 60px;
+    width: 246px;
+}
+div#login h1 a{
+height: 50px;
+    margin: 62px 0 0;
+    width: 245px;
+}
+#backtoblog{
+display:none;
+}
+input.button-primary, button.button-primary, a.button-primary {
+background:#ccc;
+    border-color: #888888;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+border-color:#fff;
+}

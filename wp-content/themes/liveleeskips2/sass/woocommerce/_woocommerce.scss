@@ -1,0 +1,210 @@
+.woocommerce, .woocommerce-page{
+	ul.products{
+		text-align:center;
+        background: url(../img/rubble.jpg) no-repeat;
+        background-size:cover;
+        background-position:center;
+        margin:0!important;
+		li.product{
+            display: inline-block;
+            float: none !important;
+            width: 90%;
+            margin: 1rem 0 0rem;
+            vertical-align: top;
+            max-width: 62rem;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 0 0 1rem;
+		}
+	}
+}
+.woocommerce img, .woocommerce-page img {
+    height: auto;
+    max-width: 16rem;
+    width: 50%;
+    /* float: left; */
+}
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    text-align: center !important;
+    margin: 0;
+    border-width: 0px;
+    border-style: solid;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 0.9rem;
+    padding: 0.75rem;
+}
+.woocommerce-error {
+    border-color: transparent;
+    background: #b81c23;
+    color: #ffd2d4;
+}
+.woocommerce-message {
+    border-color: transparent;
+    background: #4B923D;
+    color: #d9f7d3;
+}
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+    // font-family: WooCommerce;
+    // content: '\e028';
+    display: none;
+    // position: relative !important;
+    // top: 0em !important;
+    // left: 0 !important;
+}
+.delivery-date{
+    margin: 2rem auto;
+    padding: 2rem 1rem 4rem;
+    border-bottom: 2px solid #ccc;
+    h3{
+    	margin:0 auto 1rem;
+    }
+    input[type="date"]{
+    	padding:1rem;
+    	text-align: center;
+    }
+}
+.woocommerce ul.products li.product .price {
+    color: #5f5f5f;
+    display: block;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: oswald;
+    margin: 0.25rem auto 0;
+    line-height: 1;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    font-family: oswald;
+    text-transform: uppercase;
+    color: #6A1016;
+    ul{
+        list-style: none;
+        margin:0;
+        padding:0;
+        li{
+            a{
+                text-decoration: none;
+                border-left: 0rem solid #6A1016;
+                padding: 0.2rem 0;
+                transition: all 0.2s ease;
+                margin: 0.3rem 0;
+                display: block;
+            }
+        }
+        li:hover, li:active, li:focus{
+            a{
+                text-decoration: none;
+                border-left: 1rem solid #6A1016;
+                padding: 0.2rem 0 0.2rem 0.5rem;
+            }
+        }
+    }   
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #6C100C;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #c31d29;
+    color: #fff;
+}
+.woocommerce-store-notice, p.demo_store{
+    background: #222;
+    font-size: 0.75rem;
+    height:60px;
+    padding:1rem;
+    .woocommerce-store-notice__dismiss-link{
+        display: none;
+    }
+}
+.admin-bar p.demo_store {
+    top: 46px;
+}
+body.woocommerce-demo-store{
+    padding-top:60px;
+}
+@media screen and (min-width: 37.5em) {
+    body.woocommerce-demo-store{
+        padding-top:42px;
+    }
+    .woocommerce-store-notice, p.demo_store{
+        height:42px;
+    }
+    .woocommerce-error, .woocommerce-info, .woocommerce-message {
+        font-size: 1rem;
+    }
+    .woocommerce, .woocommerce-page{
+        li.product{
+             img {
+                float: left;
+            }
+            .details{
+                width: 50%;
+                float: right;
+            }
+        }
+    }
+}
+@media screen and (min-width: 783px) {
+    .admin-bar p.demo_store {
+        top: 32px;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        display: inline-block;
+        float: none !important;
+        width: 90%;
+        margin: 1rem 0 0rem;
+        vertical-align: top;
+        max-width: 62rem;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 0rem 2rem 1rem;
+    }
+    .woocommerce ul.products li.product button, .woocommerce ul.products li.product .button {
+        margin: 0rem auto 0rem;
+        font-size: 1rem;
+        width: 49%;
+        float: none;
+        font-weight: 300;
+        height: 4rem;
+        display: inline-flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .woocommerce ul.products li.product .button {
+        float: right;
+    }
+    
+}
+
+
+
+
+
+.woocommerce ul.products li.product .booknow{
+    float: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.woocommerce ul.products li.product button.effeckt-modal-close{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-image: url(../img/no.png);
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    opacity: 0;
+    transition: all 0.5s ease;
+    border: none;
+}
+body.modalopen.woocommerce ul.products li.product button.effeckt-modal-close{
+    opacity: 1;
+}

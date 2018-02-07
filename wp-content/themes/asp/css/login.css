@@ -1,0 +1,154 @@
+body.login{
+overflow: hidden;
+padding: 1em;
+}
+div#login h1 {
+height: auto;
+margin: 0 auto;
+width: 100%;
+background: transparent;
+overflow: hidden;
+}
+div#login h1 a {
+  background-image: url("../images/logo.svg");
+  background-size: 100% auto !important;
+  width: 94%;
+  background-size: auto auto;
+  height: auto;
+  margin: 0 auto;
+  height: 3em;
+  max-width: 25em;
+}
+.login form {
+background: transparent;
+border: 0px solid #FFFFFF;
+box-shadow: none;
+font-weight: normal;
+padding: 2em;
+width: 80%;
+margin: 0 auto;
+max-width: 50em;
+border-radius: 0.7em;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+background: #fbfbfb;
+padding: 0.9em;
+font-size: 1.3em;
+text-align: center;
+margin: 0 auto 1em;
+border-radius: 0.5em;
+}
+.login #nav, .login #backtoblog {
+background: transparent;
+border: 0px solid #FFFFFF;
+margin: 1.5em auto;
+padding: 1em;
+text-shadow: none;
+text-transform: uppercase;
+width: 100%;
+text-align: center;
+max-width: 30em;
+}
+.login #nav a, .login #backtoblog a {
+margin:0 auto;
+text-decoration:none;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+color: #E6332A !important;
+}
+.message {
+margin-left: 0;
+padding: 1em;
+max-width: 40em;
+margin: 2em auto !important;
+text-align: center;
+}
+.login .message {
+border-left: 0.6em solid #E6332A;
+background-color: #fff;
+-webkit-box-shadow: none;
+box-shadow: none;
+margin: 1em auto 0 !important;
+width: 80%;
+max-width: 30em;
+text-transform: uppercase;
+}
+#login{
+padding:1em 0 0;
+width: 100%;
+}
+.login label {
+font-size: 1em;
+text-align: center;
+width: 100%;
+display: block;
+text-transform: uppercase;
+}
+#login form p {
+margin-bottom: 1em;
+width: 100%;
+}
+#login form p.forgetmenot input{
+border-radius:0;
+}
+
+#backtoblog{
+display:none;
+}
+.wp-core-ui .button-primary, input.button-primary, button.button-primary, a.button-primary {
+background: transparent;
+border-color: #fff;
+-webkit-box-shadow: none;
+box-shadow: none;
+text-decoration: none;
+border-width: 2px;
+padding: 0.8em !important;
+display: block;
+width: 50%;
+float: none !important;
+margin: 3em auto 0;
+clear: both;
+max-width: 10em;
+height: auto !important;
+border-radius: 0.5em;
+font-size: 2.2em !important;
+font-weight: 300 !important;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+background: #E6332A;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-color: #fff;
+}
+.login a{
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.login .button-primary {
+  float: right;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #333;
+  border-color: #333 !important;
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+border-color:transparent;
+
+}
+input.button-primary:active, button.button-primary:active, a.button-primary:active {
+background: #72CCC7;
+}
+@media only screen and (max-width: 30em) {
+
+}

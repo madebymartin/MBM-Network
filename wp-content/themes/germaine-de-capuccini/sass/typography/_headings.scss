@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	text-transform:uppercase;
+	font-weight:200;
+    margin-top: 2rem;
+    line-height: 1.2;
+}
+#banner h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    background-color: rgba(0,0,0,0.75);
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.entry-title{text-align:center;}
+.entry-header{padding:1rem;}

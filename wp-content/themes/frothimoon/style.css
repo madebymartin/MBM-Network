@@ -1,0 +1,525 @@
+/*   
+Theme Name: Frothimoon
+Theme URI: 
+Description: Bespoke theme, built for Frothimoon
+Author: Martin Stevens
+Author URI: http://themeshaper.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic, Frothimoon
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-l-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/*---Remove Thematic Options from footer---*/
+html {
+background: #fff;
+border:0;
+margin:0;
+padding:0;
+}
+body{
+margin:0;
+padding:0;
+border:0;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, a, ul, li, .hentry{
+font-family:'georgia', times, serif;
+line-height:19px;
+letter-spacing:-0.02em;
+}
+p, ul, ol, dd, pre {
+    margin-bottom: 10px;
+}
+lightpurple{
+color:#625c93;
+}
+darkpurple{
+color:#5e013c;
+}
+lightpink{
+color:#724969;
+}
+darkpink{
+color:#5d064a;
+}
+a:link{
+color:#5e013c;
+}
+a:hover{
+color:#724969 !important;
+}
+a:active{
+color:#5d064a;
+}
+a:visited{
+color:#5e013c;
+}
+body, p, span, .treatment_description, .hentry ul{
+font-size:14px;
+color:#999999;
+line-height: 1.625;
+}
+h2, .entry-content h2{
+font-size:14px;
+clear:none;
+}
+.entry-content h3 {
+    float: left;
+    font-size: 17px;
+    font-style: italic;
+    padding: 0;
+}
+.entry-content h1, .entry-content h2, h1, h2 {
+    font-family: inherit;
+    font-weight: normal;
+    padding: 10px 0px 0px;
+    color:#5e013c;
+}
+h3, .aside h3{
+font-style:normal;
+font-size:16px;
+font-weight:bold;
+color: #5e013c;
+}
+body.bridal h1,
+body.bridal h2,
+body.bridal h3,
+body.bridal h4,
+body.bridal h5,
+body.bridal h6,
+body.slug-bride-groom .entry-content h1,
+body.slug-bride-groom .entry-content h2,
+body.slug-bride-groom .entry-content h3,
+body.slug-bride-groom .entry-content h4,
+body.slug-bride-groom .entry-content h5,
+body.slug-bride-groom .entry-content h6,
+body.bridal .aside h3, 
+body.pageid-24 .aside h3,
+body.bridal .main-aside h3, 
+body.pageid-24 .main-aside h3,
+body.bridal .entry-content h1, 
+body.pageid-24 .entry-content h1,
+body.bridal a, 
+body.pageid-24 a{
+color: #5d064a !important;
+}
+
+h4{
+font-weight:bold;
+}
+.featuretitle{
+    font-size: 20px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.entry-title {
+    background: url("images/title.jpg") no-repeat scroll center bottom transparent;
+    font-family:'georgia', times, serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0 0 30px;
+    text-align: center;
+    color:#5e013c;
+margin:10px 0 50px;
+}
+body.bridal .entry-title, body.pageid-24 .entry-title {
+    background: url("images/title-bridal.jpg") no-repeat scroll center bottom transparent;
+    color:#5d064a;
+}
+.clear{
+clear:both;
+}
+
+#wrapper {
+    background: none repeat scroll 0 0 #ffffff;
+    overflow: hidden;
+}
+#header {
+    background: url("images/frothimoonheader.jpg") no-repeat center top;
+    z-index: 2;
+    height:418px;
+    position:relative;
+}
+body.pageid-24 #header, body.bridal #header{
+    background: url("images/frothimoonheader-bridal.jpg") no-repeat center top;
+}
+body.pageid-2 #header, body.tax-treatment_category #header{
+    background: url("images/frothimoonheader-beauty.jpg") no-repeat center top;
+}
+.headerimage {
+    left: 329px;
+    position: absolute;
+    top: 133px;
+}
+#homeslides{
+background: url("images/shadow250.jpg") no-repeat center bottom;
+float:right;
+padding:0 0 20px 0;
+margin:0 0 0 20px;
+}
+.shadowpic{
+background: url("images/shadow250.jpg") no-repeat center bottom;
+float:right;
+padding:0;
+margin:0 0 0 20px;
+}
+.entry-content .wp-post-image {
+    border: 5px solid #CCCCCC;
+    float: right;
+    margin: 0 0 19px 0;
+    padding: 0;
+width:auto !important;
+}
+.meteor-slides{
+border:5px solid #ccc;
+}
+#branding {
+position:relative;
+    padding: 20px 0;
+}
+#access {
+    font-family:'verdana', arial, sans-serif;
+    border-bottom: 0px solid #CCCCCC;
+    float: right;
+    font-size: 13px;
+    height: 32px;
+    margin: 25px 0 0 0;
+    overflow: visible;
+    width: 633px;
+    z-index: 100;
+}
+#main {
+    background: none repeat scroll 0 0 #ffffff;
+    clear: both;
+    padding: 0px;
+}
+.aside ul ul {
+    list-style: disc outside none;
+    margin: 0 0 22px 0px;
+}
+.main-aside{
+background:#f3f1ff;
+padding:20px 0 0;
+width:270px;
+}
+/*
+body.pageid-24 .main-aside, body.bridal .main-aside {
+  color: #fff;
+  background: #492d80;
+}
+*/
+body.pageid-24 .main-aside a, body.bridal .main-aside a{
+color: #5d064a;
+}
+body.pageid-24 .main-aside h3, body.bridal .main-aside h3{
+font-size:14px;
+}
+.main-aside h3{
+font-size:16px;
+}
+.main-aside ul{
+margin:0 0 20px;
+}
+body.pageid-2 .main-aside ul, .tax-treatment_category .main-aside ul, body.treatments .main-aside ul{
+margin:0px !important;
+}
+.main-aside li{
+list-style:none;
+border-bottom:1px solid #fff;
+padding:5px 0;
+}
+.no-list-style{
+list-style:none;
+}
+.no-text-decoration{
+text-decoration:none;
+}
+.main-aside li ul li{
+border-bottom:0px solid #ccc;
+}
+.main-aside li ul li a{
+font-weight:normal;
+}
+.main-aside li a, .main-aside h3.widgettitle{
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+}
+.main-aside #s{
+color: #CCCCCC;
+    font-size: 11px;
+    padding: 5px;
+    width: 214px;
+}
+ul.children{
+margin:0px;
+}
+.children li a{
+font-weight:normal;
+}
+.noborder, .main-aside li .noborder{
+border:0px !important;
+}
+.news{
+float:left;
+border:2px solid #ccc;
+}
+.newstitle{
+float:right;
+font-style:italic;
+font-weight:bold;
+width:160px;
+}
+#primary {
+    border: 0px solid #CCCCCC;
+clear:left;
+    margin-bottom: 22px;
+    padding: 18px 0;
+}
+.aside{
+clear:left;
+}
+#content {
+    margin: 0 0 0 320px;
+    min-height: 650px;
+    overflow: hidden;
+    width: 620px;
+}
+
+.entry-content{
+padding:0;
+}
+.entry-meta, .entry-utility{
+display:none;
+}
+body.home .entry-content{
+float:left;
+margin:0 20px 0 0;
+width:330px;
+}
+body.home #testimonial{
+clear:both;
+border:1px solid #ccc;
+min-width:500px;
+padding:10px 40px;
+position:relative;
+margin:50px 0 0;
+}
+body.home .author{
+margin:0;
+}
+#testimonial{
+clear:both;
+min-width:500px;
+position:relative;
+margin:50px 0 0;
+}
+#testimonial p{
+//color:#625c93
+}
+.testimonial{
+clear:both;
+min-width:500px;
+position:relative;
+margin:50px 0 0;
+}
+.testimonial p{
+//color:#625c93
+}
+#quotemark1{
+background: url("images/quotes1.png") no-repeat;
+width:38px;
+height:35px;
+position:absolute;
+left:3px;
+top:-12px;
+}
+#quotemark2{
+background: url("images/quotes2.png") no-repeat;
+width:38px;
+height:35px;
+position:absolute;
+bottom:-10px;
+right:0px;
+}
+.author{
+    color: #625C93;
+    font-style: italic;
+    margin: 0 0 55px;
+}
+#footer {
+background: url('images/frothimoonfooter.jpg') repeat-y;
+}
+#footer li, body.bridal #footer li, body.pageid-24 #footer li{
+    float: right;
+    list-style: none outside none;
+    margin: 8px 0 0 20px;
+    color:#fff;
+}
+#footer li ul li, body.bridal #footer li ul li, body.pageid-24 #footer li ul li {
+    float: right;
+    list-style: none outside none;
+    margin: 0px 0 0 20px;
+}
+#footer ul {
+    float: right;
+    list-style: none outside none;
+    margin: 0px;
+}
+#footer, #footer a, body.bridal #footer, body.bridal #footer li a, body.pageid-24 #footer, body.pageid-24 #footer li a{
+color:#fff;
+text-decoration:none;
+}
+#footer a:hover, body.pageid-24 #footer a:hover, body.bridal #footer a:hover {
+color:red !important;
+}
+#siteinfo{
+padding:50px 0 80px;
+}
+#blog-title a {
+  background: url("images/logo.png") no-repeat scroll right top transparent;
+  display: block;
+  height: 80px;
+  margin: 66px 0 0 17px;
+  text-indent: -9000px;
+  width: 268px;
+  background-size: 100% auto;
+}
+#blog-description {
+    text-indent: -9000px;
+}
+.sf-menu, .sf-menu li, .sf-menu a, .sf-menu li a {
+    background: none repeat scroll 0 0 transparent;
+    border:0px;
+    color:#fff !important;
+text-transform:uppercase;
+font-size:12px;
+letter-spacing:-0.05em;
+}
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    background: none repeat scroll 0 0 transparent;
+    outline: 0 none;
+    border-bottom:1px solid #ffffff;
+}
+.sf-menu .current_page_item a, .sf-menu .current_page_ancestor a, .sf-menu .current_page_parent a, .sf-menu .current_menu_item {
+border-bottom:2px solid #ffffff !important;
+}
+.treatment_price{
+    color: #5e013c;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+body.treatment_category-waxing .treatment_price{
+//margin-right:300px;
+}
+.treatment_subtitle{
+font-weight:bold;
+}
+.treatment_description{
+    //border-bottom: 1px solid #dcd0e7;
+    padding: 0 0 20px;
+}
+.hentry{
+border-bottom: 1px solid #dcd0e7 !important;
+margin: 0 0 60px;
+padding: 0;
+width:auto;
+overflow:hidden;
+}
+.treatment{
+    overflow: hidden;
+    margin-top: 3em;
+}
+.treatment_title {
+  color: #5e013c;
+  font-size: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.wp-pagenavi {
+    clear: both;
+    float: right;
+}
+.tag-desc{
+margin:0 0 30px;
+}
+.pdf{
+    background: url("images/pdficon.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 65px;
+    margin: 0px;
+    padding: 0 0 10px 60px;
+    font-size:12px;
+    width:290px;
+}
+#wpadminbar * {
+    color: #CCCCCC !important;
+    font: 13px/28px sans-serif;
+    letter-spacing: normal;
+    position: static;
+    text-shadow: 0 -1px 0 #444444;
+    text-transform: none;
+    width: auto;
+}
+.wpcf7-form input, .wpcf7-form textarea{
+width:95%;
+}
+.wpcf7-form input.wpcf7-submit{
+width:80px;
+font-family:'georgia', times, serif;
+font-size:12px;
+float:right;
+margin-right:28px;
+}
+.wpcf7-response-output{
+font-size:11px;
+color:#777;
+}
+.contact{
+max-width:300px;
+float:left;
+margin: 0 110px 60px 0;
+}
+.listing{
+float:left;
+}
+.homelink{
+background: url("images/logosmall.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 14px;
+    height: 39px;
+margin:4px 0 0;
+    padding: 0;
+    float:left;
+width:140px;
+}
+.facebook {
+    background: url("images/frothimoon-facebook.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 14px;
+    height: 39px;
+    padding: 10px 0 0 50px;
+float:left;
+}

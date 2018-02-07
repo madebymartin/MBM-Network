@@ -1,0 +1,380 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+    margin: 0 auto 1.5em;
+    padding: 0 5vw;
+    max-width: 90rem;
+    width: 100%;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+#gmap_canvas{
+	height:50vh;
+}
+.site-header{
+	background:#6A1016;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+a.logo{
+    float: left;
+    width: 8rem;
+    height: auto;
+    display: block;
+    padding: 1rem;
+    transition: all 0.2s ease;
+}
+// .site-title a{
+//     display: block;
+//     background: url(../img/logo.png) no-repeat;
+//     background-size: auto 100%;
+//     background-position: center;
+//     height: 15vh;
+//     max-height: 10rem;
+//     min-height: 4rem;
+//     margin:0.8rem auto;
+//     text-indent:-5000px;
+//     width: 40%
+
+// }
+
+.locationsearch {
+    text-align: center;
+    padding: 1rem;
+    background: #480a0e;
+    h4{
+	    font-family: 'oswald';
+	    text-transform: uppercase;
+	    font-size: 7vw;
+	    line-height: 1;
+	    color: #ccc;
+    }
+}
+img.start{
+    clear: both;
+    float: none;
+    display: inline-block;
+    width: 80%;
+    max-width: 25rem;
+}
+input.checklocation{
+    background: #fff;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    font-family: oswald;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    max-width: 34rem;
+    font-size: 1.2rem;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: auto 30%;
+    background-position: 96% center;
+}
+input.check{
+  background: transparent;
+  color: #000;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'oswald';
+  padding: 1rem 1.5rem;
+  margin: 1.75rem 0.2rem 1rem;
+  border: 2px solid;
+  color: #fff;
+}
+.validarea-icon {
+    width: 1.5rem;
+    height: auto;
+    margin: 0 0rem 0 0.5rem;
+}
+.validarea-icon.no {
+    width: 1.35rem;
+}
+.center{
+	text-align:center;
+}
+
+div.datedropper.my-style {
+  border-radius: 9px;
+  width: 140px;
+}
+div.datedropper.my-style .picker {
+  border-radius: 9px;
+  box-shadow: 0 0 49px 0px rgba(0, 0, 0, 0.26);
+}
+div.datedropper.my-style .pick-l {
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+div.datedropper.my-style:before,
+div.datedropper.my-style .pick-submit,
+div.datedropper.my-style .pick-lg-b .pick-sl:before,
+div.datedropper.my-style .pick-m,
+div.datedropper.my-style .pick-lg-h {
+  background-color: #6A1016;
+}
+div.datedropper.my-style .pick-y.pick-jump,
+div.datedropper.my-style .pick li span,
+div.datedropper.my-style .pick-lg-b .pick-wke,
+div.datedropper.my-style .pick-btn {
+  color: #6A1016;
+}
+div.datedropper.my-style .picker,
+div.datedropper.my-style .pick-l {
+  background-color: #fff;
+}
+div.datedropper.my-style .picker,
+div.datedropper.my-style .pick-arw,
+div.datedropper.my-style .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.my-style .pick-m,
+div.datedropper.my-style .pick-m .pick-arw,
+div.datedropper.my-style .pick-lg-h,
+div.datedropper.my-style .pick-lg-b .pick-sl,
+div.datedropper.my-style .pick-submit {
+  color: #FFF;
+}
+div.datedropper.my-style.picker-tiny:before,
+div.datedropper.my-style.picker-tiny .pick-m {
+  background-color: #fff;
+}
+div.datedropper.my-style.picker-tiny .pick-m,
+div.datedropper.my-style.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.my-style.picker-lkd .pick-submit {
+  background-color: #fff;
+  color: #4D4D4D;
+}
+.woocommerce ul.products li.product .button {
+    background: #4b924a;
+    text-transform: uppercase;
+    margin: 1rem auto 3rem;
+    font-size: 1rem;
+    padding: 1.5rem 12.5%;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.woocommerce ul.products li.product .button:hover, .woocommerce ul.products li.product .button:active, .woocommerce ul.products li.product .button:focus{
+  background: green;
+}
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: oswald;
+    color: #6A1016;
+}
+.row{
+    display: block;
+    width: 100%;
+    font-family: oswald;
+    font-size: 3rem;
+    color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    span.spec{
+      display: block;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+    small{
+      display: block;
+      font-size: 0.75rem;
+    }
+}
+
+.row:nth-child(odd) {background: #A6A2A2}
+.row:nth-child(even) {background: #6b6b6b}
+.row:last-of-type {margin-bottom: 2rem;}
+.full-width{
+    background: #480a0e;
+    color: #fff;
+}
+.page-description{
+  width:100%;
+  margin: 0 auto;
+  padding: 1rem 5vw;
+  max-width:75rem;
+  text-align:center;
+}
+div.datedropper .picker ul.pick:hover .pick-arw {
+    opacity: 1 !important;
+}
+#mbm_delivery_date{
+  font-size: 1.75rem;
+  text-align:center;
+}
+.woocommerce img.icon, .woocommerce-page img.icon{
+  width:1.5rem;
+  float:left;
+  margin: 0.5rem 0.5rem 0 0;
+}
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:600px; /* your iframe height */
+   top:600px;  /* your iframe height */
+   margin-top:-600px;  /* your iframe height */
+}
+#base-location{width:100% !important;}
+footer.site-footer{
+  background:#333;
+  color: #fff;
+  text-align: center;
+}
+#secondary{
+    background: #333;
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+ul#menu-footer-menu{
+  margin:0;
+  padding:0;
+  li{
+    display: inline-block;
+    float: none;
+    list-style: none;
+    a{
+      display: block;
+      padding: 1rem;
+      margin: 2px;
+      color: #ccc;
+      text-decoration: none;
+      font-family: oswald;
+      text-transform: uppercase;
+    }
+    a:hover, a:active, a:focus{
+      color: #fff;
+    }
+  }
+}
+.site-branding .phone{
+    display: block;
+    position: absolute;
+    top: 1.3rem;
+    left: 9rem;
+    font-family: oswald;
+    font-size: 1rem;
+  span.landline, span.mobile{
+    display: block;
+    background-size: auto 1rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 0 0 0 1.75rem;
+  }
+  span.landline{
+    background-image: url(../img/landline.png);
+  }
+  span.mobile{
+    background-image: url(../img/mobile.png);
+    background-size: 1.25rem auto;
+    background-position: 0.15rem center;
+  }
+}
+
+
+@media screen and (min-width: 37.5em) {
+	.site-title a{
+	    display: block;
+	    background: url(../img/logo.png) no-repeat;
+	    background-size: auto 100%;
+	    height: 15vh;
+	    max-height: 10rem;
+	    min-height: 4rem;
+	    margin:0.8rem;
+	    text-indent:-5000px;
+	}
+  a.logo{
+      width: 10rem;
+  }
+  input.checklocation{
+    font-size: 2rem;
+  }
+	.locationsearch {
+
+	    h4{
+		    font-size: 2rem;
+	    }
+	}
+  .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    font-size: 3em;
+  }
+  .site-header{
+    padding-bottom:3rem;
+  }
+  .site-branding .phone{
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 100%;
+    left: auto;
+    text-align: right;
+    span.landline, span.mobile {
+        display: inline-block;
+        background-size: auto 1rem;
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 0 0 0 1.75rem;
+        margin: 0 0 0 2rem;
+    }
+    span.mobile{
+      background-size: auto 1.5rem;
+    }
+  }
+}
+@media screen and (min-width: 67.5em) {
+  .site-header{
+    padding-bottom:0rem;
+  }
+  .site-branding .phone{
+    top: 2rem;
+    left: 10rem;
+    right: auto;
+    text-align: right;
+    width: auto;
+    font-size: 1.5rem;
+    span.landline, span.mobile {
+      display: inline-block;
+      background-size: auto 1.2rem;
+      background-position: left center;
+      background-repeat: no-repeat;
+      padding: 0 0 0 2.15rem;
+      margin: 0 0 0 2rem;
+    }
+    span.mobile{
+      background-size: auto 1.8rem;
+      background-position: 0.5rem center;
+    }
+  }
+}
